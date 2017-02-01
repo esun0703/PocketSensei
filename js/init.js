@@ -1,5 +1,3 @@
-var keywordName=$("#searchinput").val();
-
 
 (function($){
   $(function(){
@@ -11,13 +9,11 @@ var keywordName=$("#searchinput").val();
 })(jQuery); // end of jQuery name space
 
  $(document).ready(function(){
-      $('.carousel.carousel-slider').carousel({
+      $('.carousel').carousel({
         shift:0,
-        padding:200,
         indicators:true,
+        
         fullWidth: true,
       });
+       $('.modal').modal();
     });
-
-
-$("#searchedKeywordTitle").html(keywordName)
