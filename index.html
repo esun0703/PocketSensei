@@ -43,7 +43,7 @@
           <div class="row center search-row">
             <form id="search-form">
               <input type="text" id="searchinput" placeholder="Search..."><!--Changed placeholder to "Search"-->
-              <button class="btn waves-effect waves-orange" type="submit" name="action" data-target="modal1>
+              <button class="btn waves-effect waves-orange" type="submit" name="action" data-target="modal1">
               <i class="material-icons">search</i>
               </button>
             </form>
@@ -74,19 +74,19 @@
     </div>
     -->
     <!-- Modal Structure -->
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-      </div>
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+        <div id="map"></div>
     </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
     <!--Parallax 2-->
     <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
+      <div class="section no-pad-bot" id="quoteSection">
+        <div class="container" id="quoteContainer">
           <br><br>
           <div class="row center">
             <h5>"I fear not the man who has practiced 10,000 kicks once,
@@ -110,9 +110,11 @@
     <script src="js/init.js"></script>
     <!--youtube-->
     <script src="assets/javascript/youtube.js"></script>
+    <!--wikipedia-->
     <script type = "text/javascript" src="assets/javascript/wiki.js"></script>
+    <!--google maps-->
     <script type = "text/javascript" src="assets/javascript/googlemaps.js"></script>
     <script type ="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtd0Rm6EoowNo16BoCBpQwxqgv40Z5P0U&libraries=places&callback=initMap"></script>
-    <script type = "text/javascript" src="assets/javascript/script.js"></script>
+    
   </body>
 </html>

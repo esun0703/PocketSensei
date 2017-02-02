@@ -33,7 +33,7 @@ p {
   color: #26a69a;
 }
 
-/*Parallax Formatting*/
+/*Parallax 1*/
 .parallax-container {
   min-height: 500px;
   line-height: 0;
@@ -48,18 +48,6 @@ p {
   width:40%;
 }
 
-#background2 {
-  width:50%;
-}
-
-
-#quoteContainer{
-  width:100%;
-  height:300px;
-  padding-top:70px;
-  font-style: italic;
-  color:#f39c12;
-}
 /*Carousel*/
 .carousel-slider {
     height: 500px !important;
@@ -70,6 +58,23 @@ p {
   width:30px;
 }
 
+/*Parallax 2*/
+#background2 {
+  width:50%;
+}
+
+#quoteSection{
+  padding:0;
+}
+
+#quoteContainer{
+  width:100%;
+  height:500px;
+  padding-top:170px;
+  font-style: italic;
+  color:rgba(243,156,18,.7);
+  background-color:rgba(13, 13, 13, .6);
+}
 
 /*Footer*/
 .page-footer{
